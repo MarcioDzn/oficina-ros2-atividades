@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "interfaces/msg/ActuatorState",
+      "fields": [
+        {
+          "name": "names",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "positions",
+          "type": {
+            "type_id": 148,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "interfaces/msg/ActuatorState",
+      "hash_string": "RIHS01_94d88df301b86ccc5868d33b6aedf2994402b6d4a02587da3d3195406d46dc35"
+    }
+  ]
+}

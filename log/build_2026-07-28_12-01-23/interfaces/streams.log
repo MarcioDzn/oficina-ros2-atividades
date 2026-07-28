@@ -1,0 +1,260 @@
+[0.007s] Invoking command in '/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/atividades:/opt/ros/jazzy /usr/bin/cmake /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/src/interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces
+[0.019s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.193s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.199s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.238s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.273s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.275s] -- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.287s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.970s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.488s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.141s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.144s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.260s] -- Found PythonExtra: /usr/bin/python3  
+[2.728s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.864s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.881s] -- Configuring done (2.9s)
+[2.927s] -- Generating done (0.0s)
+[2.940s] -- Build files have been written to: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/interfaces
+[2.946s] Invoked command in '/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/atividades:/opt/ros/jazzy /usr/bin/cmake /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/src/interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces
+[2.947s] Invoking command in '/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/atividades:/opt/ros/jazzy /usr/bin/cmake --build /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/interfaces -- -j12 -l12
+[2.987s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.988s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.993s] [  3%] Built target ament_cmake_python_symlink_interfaces
+[3.220s] running egg_info
+[3.221s] creating interfaces.egg-info
+[3.229s] [  3%] Built target interfaces__rosidl_generator_type_description
+[3.237s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.245s] writing interfaces.egg-info/PKG-INFO
+[3.245s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[3.245s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.245s] writing top-level names to interfaces.egg-info/top_level.txt
+[3.246s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[3.274s] [  7%] Built target interfaces__rs
+[3.317s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[3.317s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[3.340s] [  7%] Built target ament_cmake_python_build_interfaces_egg
+[3.720s] [  7%] Built target interfaces__cpp
+[3.789s] [ 10%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/actuator_command__functions.c.o[0m
+[3.790s] [ 10%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/actuator_state__type_support.c.o[0m
+[3.790s] [ 12%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/actuator_move__type_support.c.o[0m
+[3.791s] [ 16%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/actuator_command__description.c.o[0m
+[3.791s] [ 16%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/actuator_command__type_support.c.o[0m
+[3.791s] [ 18%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/actuator_state__description.c.o[0m
+[3.791s] [ 20%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/actuator_state__functions.c.o[0m
+[3.792s] [ 21%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/actuator_move__description.c.o[0m
+[3.792s] [ 23%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/actuator_move__functions.c.o[0m
+[3.948s] [ 25%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[4.020s] [ 25%] Built target interfaces__rosidl_generator_c
+[4.030s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.030s] [ 34%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.030s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.030s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.031s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.031s] [ 36%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.349s] [ 41%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/actuator_state__type_support.cpp.o[0m
+[4.349s] [ 41%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/actuator_command__type_support.cpp.o[0m
+[4.349s] [ 41%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/action/actuator_move__type_support.cpp.o[0m
+[4.376s] [ 43%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/action/actuator_move__type_support.cpp.o[0m
+[4.376s] [ 47%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/actuator_state__type_support.cpp.o[0m
+[4.376s] [ 47%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/actuator_command__type_support.cpp.o[0m
+[4.430s] [ 49%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[4.440s] [ 50%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/actuator_command__type_support.cpp.o[0m
+[4.442s] [ 54%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/actuator_state__type_support.cpp.o[0m
+[4.442s] [ 54%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/action/detail/actuator_move__type_support.cpp.o[0m
+[4.488s] [ 54%] Built target interfaces__rosidl_typesupport_c
+[4.519s] [ 60%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/actuator_state__type_support.c.o[0m
+[4.519s] [ 60%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/actuator_command__type_support.c.o[0m
+[4.519s] [ 60%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/action/detail/actuator_move__type_support.c.o[0m
+[4.645s] [ 61%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[4.695s] [ 61%] Built target interfaces__rosidl_typesupport_introspection_c
+[4.713s] [ 65%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/actuator_state__type_support_c.cpp.o[0m
+[4.713s] [ 65%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/actuator_command__type_support_c.cpp.o[0m
+[4.713s] [ 67%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/action/detail/actuator_move__type_support_c.cpp.o[0m
+[4.723s] [ 70%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/action/detail/dds_fastrtps/actuator_move__type_support.cpp.o[0m
+[4.723s] [ 70%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/actuator_state__type_support.cpp.o[0m
+[4.727s] [ 72%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/actuator_command__type_support.cpp.o[0m
+[5.415s] [ 74%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.420s] [ 76%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[5.518s] [ 76%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[5.519s] [ 76%] Built target interfaces__rosidl_typesupport_cpp
+[5.543s] [ 78%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.613s] [ 78%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[5.902s] [ 80%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.974s] [ 80%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[5.988s] [ 80%] Built target interfaces
+[6.004s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.781s] [ 81%] Built target interfaces__py
+[6.796s] [ 87%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_actuator_command_s.c.o[0m
+[6.796s] [ 87%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_actuator_state_s.c.o[0m
+[6.796s] [ 87%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_actuator_move_s.c.o[0m
+[7.075s] [ 89%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_py.so[0m
+[7.119s] [ 89%] Built target interfaces__rosidl_generator_py
+[7.135s] [ 94%] [32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.135s] [ 94%] [32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.135s] [ 94%] [32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.251s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[7.251s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.so[0m
+[7.256s] [100%] [32m[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[7.277s] [100%] Built target interfaces_s__rosidl_typesupport_introspection_c
+[7.277s] [100%] Built target interfaces_s__rosidl_typesupport_c
+[7.284s] [100%] Built target interfaces_s__rosidl_typesupport_fastrtps_c
+[7.293s] Invoked command in '/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/atividades:/opt/ros/jazzy /usr/bin/cmake --build /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/interfaces -- -j12 -l12
+[7.300s] Invoking command in '/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/atividades:/opt/ros/jazzy /usr/bin/cmake --install /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/interfaces
+[7.306s] -- Install configuration: ""
+[7.306s] -- Execute custom install script
+[7.306s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[7.313s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/msg/ActuatorCommand.json
+[7.319s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/msg/ActuatorState.json
+[7.326s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/action/ActuatorMove.json
+[7.333s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/action/actuator_move.h
+[7.340s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/action/detail/actuator_move__functions.h
+[7.346s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/action/detail/actuator_move__struct.h
+[7.353s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/action/detail/actuator_move__type_support.h
+[7.359s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/actuator_command.h
+[7.365s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/actuator_state.h
+[7.371s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_command__functions.h
+[7.378s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_command__struct.h
+[7.384s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_command__type_support.h
+[7.390s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_state__functions.h
+[7.397s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_state__struct.h
+[7.403s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_state__type_support.h
+[7.409s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.415s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/environment/library_path.sh
+[7.421s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/environment/library_path.dsv
+[7.429s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/action/detail/actuator_move__rosidl_typesupport_fastrtps_c.h
+[7.435s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_command__rosidl_typesupport_fastrtps_c.h
+[7.442s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_state__rosidl_typesupport_fastrtps_c.h
+[7.448s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.455s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/action/detail/actuator_move__rosidl_typesupport_introspection_c.h
+[7.461s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_command__rosidl_typesupport_introspection_c.h
+[7.468s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_state__rosidl_typesupport_introspection_c.h
+[7.474s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.480s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/action/actuator_move.hpp
+[7.487s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/action/detail/actuator_move__builder.hpp
+[7.493s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/action/detail/actuator_move__struct.hpp
+[7.499s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/action/detail/actuator_move__traits.hpp
+[7.505s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/action/detail/actuator_move__type_support.hpp
+[7.511s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/actuator_command.hpp
+[7.518s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/actuator_state.hpp
+[7.525s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_command__builder.hpp
+[7.535s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_command__struct.hpp
+[7.542s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_command__traits.hpp
+[7.550s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_command__type_support.hpp
+[7.557s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_state__builder.hpp
+[7.565s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_state__struct.hpp
+[7.572s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_state__traits.hpp
+[7.579s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_state__type_support.hpp
+[7.585s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.592s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/action/detail/actuator_move__rosidl_typesupport_fastrtps_cpp.hpp
+[7.598s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_command__rosidl_typesupport_fastrtps_cpp.hpp
+[7.604s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_state__rosidl_typesupport_fastrtps_cpp.hpp
+[7.611s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.618s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/action/detail/actuator_move__rosidl_typesupport_introspection_cpp.hpp
+[7.624s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_command__rosidl_typesupport_introspection_cpp.hpp
+[7.631s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/include/interfaces/interfaces/msg/detail/actuator_state__rosidl_typesupport_introspection_cpp.hpp
+[7.638s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/environment/pythonpath.sh
+[7.644s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[7.651s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[7.658s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[7.664s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[7.670s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[7.677s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py
+[7.683s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[7.690s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.697s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.703s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/action/__init__.py
+[7.710s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/action/_actuator_move.py
+[7.716s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/action/_actuator_move_s.c
+[7.722s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so
+[7.731s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.738s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so
+[7.744s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/msg/__init__.py
+[7.751s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_actuator_command.py
+[7.757s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_actuator_command_s.c
+[7.764s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_actuator_state.py
+[7.770s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_actuator_state_s.c
+[7.777s] -- Up-to-date symlink: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.777s] -- Up-to-date symlink: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so
+[7.777s] -- Up-to-date symlink: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so
+[7.777s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/ament_index/resource_index/rust_packages/interfaces
+[7.784s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/rust/Cargo.toml
+[7.790s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/rust/build.rs
+[7.796s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/rust/src/action.rs
+[7.802s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/rust/src/action/rmw.rs
+[7.809s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/rust/src/lib.rs
+[7.815s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/rust/src/msg.rs
+[7.821s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/rust/src/msg/rmw.rs
+[7.829s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/msg/ActuatorCommand.idl
+[7.836s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/msg/ActuatorState.idl
+[7.842s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/action/ActuatorMove.idl
+[7.849s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/msg/ActuatorCommand.msg
+[7.855s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/msg/ActuatorState.msg
+[7.862s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/action/ActuatorMove.action
+[7.868s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[7.874s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[7.881s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[7.887s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[7.893s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/environment/path.sh
+[7.900s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/environment/path.dsv
+[7.906s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/local_setup.bash
+[7.912s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/local_setup.sh
+[7.919s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/local_setup.zsh
+[7.926s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/local_setup.dsv
+[7.933s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/package.dsv
+[7.939s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[7.946s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[7.952s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.959s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.965s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.971s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.978s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.984s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.990s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[7.997s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[8.003s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[8.009s] -- Symlinking: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/package.xml
+[8.015s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[8.016s] -- Set non-toolchain portion of runtime path of "/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[8.016s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[8.016s] -- Set non-toolchain portion of runtime path of "/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[8.016s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[8.016s] -- Set non-toolchain portion of runtime path of "/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[8.017s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[8.017s] -- Set non-toolchain portion of runtime path of "/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[8.017s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.017s] -- Set non-toolchain portion of runtime path of "/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.018s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[8.018s] -- Set non-toolchain portion of runtime path of "/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.018s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[8.018s] -- Set non-toolchain portion of runtime path of "/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[8.066s] Listing '/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces'...
+[8.066s] Compiling '/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py'...
+[8.066s] Listing '/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/action'...
+[8.066s] Compiling '/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/action/__init__.py'...
+[8.066s] Compiling '/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/action/_actuator_move.py'...
+[8.066s] Listing '/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/msg'...
+[8.066s] Compiling '/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/msg/__init__.py'...
+[8.066s] Compiling '/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_actuator_command.py'...
+[8.066s] Compiling '/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_actuator_state.py'...
+[8.070s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[8.071s] -- Set non-toolchain portion of runtime path of "/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+[8.071s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[8.071s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.071s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[8.071s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.071s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.072s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.072s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[8.072s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.072s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[8.072s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.072s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.072s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.072s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.072s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[8.073s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.073s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[8.073s] -- Installing: /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[8.075s] Invoked command in '/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/atividades:/opt/ros/jazzy /usr/bin/cmake --install /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/interfaces

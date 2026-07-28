@@ -1,0 +1,1 @@
+/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

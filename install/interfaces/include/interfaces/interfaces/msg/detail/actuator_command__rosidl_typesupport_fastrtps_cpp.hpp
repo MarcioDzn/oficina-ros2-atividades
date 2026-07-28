@@ -1,0 +1,1 @@
+/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/actuator_command__rosidl_typesupport_fastrtps_cpp.hpp
