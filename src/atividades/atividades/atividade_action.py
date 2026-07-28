@@ -13,9 +13,10 @@ class CoordenadorAtuadores(Node):
         # Dois parâmetros devem ser passados para a classe ActionClient:
         #   1. A interface ActuatorMove
         #   2. O nome do action: 'actuator/move' 
+
         # Descomente e complete:
         #self._action_client =
-        self._action_client = ActionClient(self, ActuatorMove, 'actuator/move')
+
         
         # 2. Se inscrever no tópico de comando
         # Aqui você deve criar o objeto Subscription utilizando o método create_subscription
@@ -24,14 +25,9 @@ class CoordenadorAtuadores(Node):
         #   2. O nome do tópico: 'actuator/command'
         #   3. O callback que vai de fator receber e processar a mensagem: command_callback
         #   4. O perfil QoS: 10
+        
         # Descomente e complete:
         #self.cmd_sub = 
-        self.cmd_sub = self.create_subscription(
-            ActuatorCommand,
-            'actuator/command',
-            self.command_callback,
-            10
-        )
         
         self.desired_positions = {}
 
@@ -92,10 +88,6 @@ class CoordenadorAtuadores(Node):
 
         # Descomente e complete:
         #self._send_goal_future = 
-        self._send_goal_future = self._action_client.send_goal_async(
-            goal_msg, 
-            feedback_callback=self.feedback_callback
-        )
 
 
     def feedback_callback(self, feedback_msg):
@@ -113,11 +105,10 @@ class CoordenadorAtuadores(Node):
                 # e a posição atual enviada pelo feedack. É uma subtração simples.
 
                 # Descomente e complete:
-                # erro = 
-                erro = desired_position - current_position
+                # error = 
                 
                 self.get_logger().info(
-                    f"[{name}] Alvo: {desired_position} | Real: {current_position} | Erro: {erro}"
+                    f"[{name}] Alvo: {desired_position} | Real: {current_position} | Erro: {error}"
                 )
 
 
