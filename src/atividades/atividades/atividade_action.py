@@ -38,6 +38,8 @@ class CoordenadorAtuadores(Node):
         # Envia a trajetória apenas uma vez quando executar o nó
         self.timer = self.create_timer(1.0, self._start)
 
+        self.get_logger().info("Nó CoordenadorAtuadores executado com sucesso")
+
 
     def _start(self):
         """
@@ -45,6 +47,8 @@ class CoordenadorAtuadores(Node):
         """
                 
         self.timer.cancel() 
+
+        self.get_logger().info("Enviando trajetória...")
         self.send_trajectory()
 
 
