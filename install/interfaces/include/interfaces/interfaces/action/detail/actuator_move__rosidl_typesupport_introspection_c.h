@@ -1,1 +1,0 @@
-/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/interfaces/rosidl_typesupport_introspection_c/interfaces/action/detail/actuator_move__rosidl_typesupport_introspection_c.h

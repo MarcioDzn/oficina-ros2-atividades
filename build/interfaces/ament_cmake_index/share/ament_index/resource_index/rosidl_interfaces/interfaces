@@ -1,6 +1,0 @@
-action/ActuatorMove.action
-action/ActuatorMove.idl
-msg/ActuatorCommand.idl
-msg/ActuatorCommand.msg
-msg/ActuatorState.idl
-msg/ActuatorState.msg
