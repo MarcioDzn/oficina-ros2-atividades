@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating atividades.egg-info
+writing atividades.egg-info/PKG-INFO
+writing dependency_links to atividades.egg-info/dependency_links.txt
+writing entry points to atividades.egg-info/entry_points.txt
+writing requirements to atividades.egg-info/requires.txt
+writing top-level names to atividades.egg-info/top_level.txt
+writing manifest file 'atividades.egg-info/SOURCES.txt'
+reading manifest file 'atividades.egg-info/SOURCES.txt'
+writing manifest file 'atividades.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/atividades/lib/python3.12/site-packages/atividades.egg-link (link to .)
+Installing coordenador script to /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/atividades/lib/atividades
+
+Installed /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/atividades
+running symlink_data
+creating /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/atividades/share
+creating /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/atividades/share/ament_index
+creating /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/atividades/share/ament_index/resource_index
+creating /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/atividades/share/ament_index/resource_index/packages
+symbolically linking /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/atividades/resource/atividades -> /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/atividades/share/ament_index/resource_index/packages
+creating /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/atividades/share/atividades
+symbolically linking /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/atividades/package.xml -> /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/atividades/share/atividades

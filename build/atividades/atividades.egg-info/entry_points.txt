@@ -1,0 +1,2 @@
+[console_scripts]
+coordenador = atividades.atividade_action:main

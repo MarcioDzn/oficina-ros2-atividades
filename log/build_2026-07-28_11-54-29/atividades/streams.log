@@ -1,0 +1,17 @@
+[1.198s] Invoking command in '/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/atividades': PYTHONPATH=/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/atividades/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/atividades/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/atividades/build --no-deps symlink_data
+[1.531s] running develop
+[1.764s] running egg_info
+[1.789s] writing atividades.egg-info/PKG-INFO
+[1.789s] writing dependency_links to atividades.egg-info/dependency_links.txt
+[1.789s] writing entry points to atividades.egg-info/entry_points.txt
+[1.789s] writing requirements to atividades.egg-info/requires.txt
+[1.789s] writing top-level names to atividades.egg-info/top_level.txt
+[1.836s] reading manifest file 'atividades.egg-info/SOURCES.txt'
+[1.837s] writing manifest file 'atividades.egg-info/SOURCES.txt'
+[1.861s] running build_ext
+[1.861s] Creating /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/atividades/lib/python3.12/site-packages/atividades.egg-link (link to .)
+[1.861s] Installing coordenador script to /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/atividades/lib/atividades
+[1.862s] 
+[1.862s] Installed /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/atividades
+[1.862s] running symlink_data
+[1.888s] Invoked command in '/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/atividades' returned '0': PYTHONPATH=/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/atividades/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/install/atividades/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/marcio/Documentos/Dev/UEFS/SIECOMP 2026.2/oficina_ros2_atividades/build/atividades/build --no-deps symlink_data

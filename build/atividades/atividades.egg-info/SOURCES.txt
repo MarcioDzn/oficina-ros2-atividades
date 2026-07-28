@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+atividades/__init__.py
+atividades/atividade_action.py
+atividades.egg-info/PKG-INFO
+atividades.egg-info/SOURCES.txt
+atividades.egg-info/dependency_links.txt
+atividades.egg-info/entry_points.txt
+atividades.egg-info/requires.txt
+atividades.egg-info/top_level.txt
+atividades.egg-info/zip-safe
+resource/atividades
