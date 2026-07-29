@@ -4,6 +4,8 @@ from rclpy.action import ActionClient
 from interfaces.action import ActuatorMove
 from interfaces.msg import ActuatorCommand
 
+from math import pi
+
 class CoordenadorAtuadores(Node):
     def __init__(self):
         super().__init__('coordenador_atuadores')
@@ -72,12 +74,12 @@ class CoordenadorAtuadores(Node):
                 
         # Constrói a mensagem de goal enviada para o action server
         goal_msg = ActuatorMove.Goal()
-        goal_msg.names = ['motor_x']
-        goal_msg.amplitudes = [500.0]
-        goal_msg.periods = [2.0]
-        goal_msg.offsets = [0.0]
-        goal_msg.phases = [0.0]
-        goal_msg.samples = 100
+        goal_msg.names = ['joint_1', 'joint_2', 'joint_3']
+        goal_msg.amplitudes = [1000.0, 1000.0, 1000.0]
+        goal_msg.periods = [2.0, 2.0, 2.0]
+        goal_msg.offsets = [1000.0, 1000.0, 1000.0]
+        goal_msg.phases = [0.0, pi, pi/2]
+        goal_msg.samples = 500
         goal_msg.loops = 2
 
         # Aguarda o action server ficar disponível
