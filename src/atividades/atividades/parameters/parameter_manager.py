@@ -30,6 +30,11 @@ class ParameterManager:
             [0.0, 0.0, 0.0]
         )
 
+        self.node.declare_parameter(
+            'delays',
+            [0.0, 1.0, 2.0]
+        )
+
         self.node.declare_parameter('samples', 100)
         self.node.declare_parameter('loops', 2)
 
@@ -56,6 +61,10 @@ class ParameterManager:
     @property
     def samples(self):
         return self.node.get_parameter('samples').value
+
+    @property
+    def delays(self):
+        return self.node.get_parameter('delays').value
 
     @property
     def loops(self):

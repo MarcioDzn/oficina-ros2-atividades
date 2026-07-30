@@ -87,6 +87,7 @@ class ActuatorCoordinator(Node):
         goal_msg.offsets = self.params.offsets
         goal_msg.phases = self.params.phases
         goal_msg.samples = self.params.samples
+        goal_msg.delays = self.params.delays
         goal_msg.loops = self.params.loops
 
         # Aguarda o action server ficar disponível
