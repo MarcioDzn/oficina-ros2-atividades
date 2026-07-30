@@ -8,7 +8,7 @@ from atividades.parameters.parameter_manager import ParameterManager
 
 from math import pi
 
-class CoordenadorAtuadores(Node):
+class ActuatorCoordinator(Node):
     def __init__(self):
         super().__init__('coordenador_atuadores')
         
@@ -45,7 +45,7 @@ class CoordenadorAtuadores(Node):
         # Envia a trajetória apenas uma vez quando executar o nó
         self.timer = self.create_timer(1.0, self._start)
 
-        self.get_logger().info("Nó CoordenadorAtuadores executado com sucesso")
+        self.get_logger().info("Nó ActuatorCoordinator executado com sucesso")
 
 
     def _start(self):
@@ -133,7 +133,7 @@ class CoordenadorAtuadores(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    node = CoordenadorAtuadores()
+    node = ActuatorCoordinator()
 
     rclpy.spin(node)
 
