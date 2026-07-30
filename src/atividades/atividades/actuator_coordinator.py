@@ -45,7 +45,7 @@ class ActuatorCoordinator(Node):
         # Envia a trajetória apenas uma vez quando executar o nó
         self.timer = self.create_timer(1.0, self._start)
 
-        self.get_logger().info("Nó ActuatorCoordinator executado com sucesso")
+        self.get_logger().info("Nó ActuatorCoordinator iniciado com sucesso")
 
 
     def _start(self):

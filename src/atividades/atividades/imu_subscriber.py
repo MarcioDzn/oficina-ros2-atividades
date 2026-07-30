@@ -23,7 +23,17 @@ class IMUSubscriber(Node):
         # Guarda os últimos estados recebidos das IMUs
         self.imu_states = {}
 
-        # Subscriber do tópico imu/state
+        # 1. Se inscrever no tópico de estado dos IMUs
+        # Aqui você deve criar o objeto Subscription utilizando o método create_subscription
+
+        # Quatro parâmetros devem ser passados para o método create_subscription
+        #   1. A interface ActuatorCommand
+        #   2. O nome do tópico: 'imu/state'
+        #   3. O callback que vai de fator receber e processar a mensagem: imu_callback
+        #   4. O perfil QoS: 10
+
+        # Descomente e complete:
+        #self.imu_sub =
         self.imu_sub = self.create_subscription(
             IMUState,
             'imu/state',
@@ -41,9 +51,22 @@ class IMUSubscriber(Node):
         Recebe o estado das IMUs.
         """
 
-        # Percorre a lista de IMUData
-        for imu in msg.imus:
+        # 2. Guardar os dados dos IMUs no dicionário
+        # Aqui você deve percorrer os dados dos IMUs e guardar em imu_states
+        # em um dicionário com a seguinte estrutura:
+        # self.imu_states[<nome_do_imu>] = {
+        #   'q_w': <q_w>,
+        #   'q_x': <q_x>,,
+        #   'q_y': <q_y>,,
+        #   'q_z': <q_z>,
+        # }
+        # Para descobrir como acessar os dados observe a estrutura das mensagens
+        # IMUState e IMUData, presentes no pacote 'interfaces'
 
+        # 3. Exibir os dados com self.get_logger().info()
+        # Para cada IMU, exiba o seu nome junto aos seus 
+        # dados de quaternions (q_w, q_x, q_y, q_z)
+        for imu in msg.imus:
             self.imu_states[imu.name] = {
                 'q_w': imu.q_w,
                 'q_x': imu.q_x,
