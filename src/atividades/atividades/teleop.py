@@ -16,14 +16,30 @@ class KeyboardActuator(Node):
     def __init__(self):
         super().__init__("keyboard_actuator")
 
+        # 1. Criar o publisher do tópico de comando dos atuadores
+        # Aqui você deve criar o objeto Publisher utilizando o método create_publisher
+
+        # Três parâmetros devem ser passados para o método create_publisher
+        #   1. A interface ActuatorCommand
+        #   2. O nome do tópico: 'actuator/command'
+        #   4. O perfil QoS: 10
+
+        # Descomente e complete:
+        #self.pub =
+
         self.pub = self.create_publisher(
             ActuatorCommand,
             "actuator/command",
             10,
         )
 
+        # Nomes dos atuadores
         self.names = ["joint_1", "joint_2", "joint_3"]
+
+        # Posições iniciais
         self.positions = [1500, 1500, 1500]
+
+        # Passo de incremento
         self.step = 300
 
         self.publish_command()
@@ -36,10 +52,21 @@ class KeyboardActuator(Node):
         self.get_logger().info("Use ↑ e ↓ para mover o joint_1 (q para sair)")
 
     def publish_command(self):
+        # 2. Criar a mensagem a ser enviada
+        # Aqui você deve criar a mensagem do tipo ActuatorCommand
+        # 
+        # Primeiro crie o objeto ActuatorCommand()
+        # msg = 
         msg = ActuatorCommand()
+
+        # Preencha a lista 'names' da mensagem com os valores de self.names
         msg.names = self.names
+
+        # Preencha a lista 'goals' da mensagem com os valores de self.positions
         msg.goals = [int(position) for position in self.positions]
 
+        # Publique a mensagem chamando o método publish do objeto publisher 
+        # e passando a mensagem
         self.pub.publish(msg)
         self.get_logger().info(f"joint_1 -> {self.positions[0]}")
         self.get_logger().info(f"joint_2 -> {self.positions[1]}")

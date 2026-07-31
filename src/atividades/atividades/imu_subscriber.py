@@ -27,7 +27,7 @@ class IMUSubscriber(Node):
         # Aqui você deve criar o objeto Subscription utilizando o método create_subscription
 
         # Quatro parâmetros devem ser passados para o método create_subscription
-        #   1. A interface ActuatorCommand
+        #   1. A interface IMUState
         #   2. O nome do tópico: 'imu/state'
         #   3. O callback que vai de fator receber e processar a mensagem: imu_callback
         #   4. O perfil QoS: 10
