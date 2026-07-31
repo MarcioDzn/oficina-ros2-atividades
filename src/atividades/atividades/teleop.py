@@ -22,8 +22,9 @@ class KeyboardActuator(Node):
             10,
         )
 
-        self.position = 1500
-        self.step = 100
+        self.names = ["joint_1", "joint_2", "joint_3"]
+        self.positions = [1500, 1500, 1500]
+        self.step = 300
 
         self.publish_command()
 
@@ -36,11 +37,13 @@ class KeyboardActuator(Node):
 
     def publish_command(self):
         msg = ActuatorCommand()
-        msg.names = ["joint_1"]
-        msg.goals = [int(self.position)]
+        msg.names = self.names
+        msg.goals = [int(position) for position in self.positions]
 
         self.pub.publish(msg)
-        self.get_logger().info(f"joint_1 -> {self.position}")
+        self.get_logger().info(f"joint_1 -> {self.positions[0]}")
+        self.get_logger().info(f"joint_2 -> {self.positions[1]}")
+        self.get_logger().info(f"joint_3 -> {self.positions[2]}")
 
     def get_key(self):
         fd = sys.stdin.fileno()
@@ -65,12 +68,28 @@ class KeyboardActuator(Node):
         while self.running and rclpy.ok():
             key = self.get_key()
 
-            if key == '\x1b[A':  # seta para cima
-                self.position = min(3000, self.position + self.step)
+            if key == '\x1b[A':  # seta para cima   
+                self.positions[0] = max(1000, self.positions[0] - self.step)
+                self.positions[1] = min(2800, self.positions[1] + self.step)
+                self.positions[2] = min(3000, self.positions[2] + self.step)
                 self.publish_command()
 
             elif key == '\x1b[B':  # seta para baixo
-                self.position = max(0, self.position - self.step)
+                self.positions[0] = min(3000, self.positions[0] + self.step)
+                self.positions[1] = max(1000, self.positions[1] - self.step)
+                self.positions[2] = max(1500, self.positions[2] - self.step)
+                self.publish_command()
+
+            elif key == '\x1b[C':  # seta para direita
+                self.positions[0] = min(3000, self.positions[0] + self.step)
+                self.positions[1] = min(3000, self.positions[1] + self.step)
+                self.positions[2] = max(1500, self.positions[2] - self.step)
+                self.publish_command()
+
+            elif key == '\x1b[D':  # seta para esquerda
+                self.positions[0] = min(3000, self.positions[0] + self.step)
+                self.positions[1] = max(1000, self.positions[1] - self.step)
+                self.positions[2] = min(3000, self.positions[2] + self.step)
                 self.publish_command()
 
             elif key == 'q':
