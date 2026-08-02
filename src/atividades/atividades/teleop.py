@@ -49,7 +49,7 @@ class KeyboardActuator(Node):
         self.keyboard_thread.daemon = True
         self.keyboard_thread.start()
 
-        self.get_logger().info("Use ↑ e ↓ para mover o joint_1 (q para sair)")
+        self.get_logger().info("Use ↑, ↓, ← e → para mover o joint_1 (q para sair)")
 
     def publish_command(self):
         # 2. Criar a mensagem a ser enviada
