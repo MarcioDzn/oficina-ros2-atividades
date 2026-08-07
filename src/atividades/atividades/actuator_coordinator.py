@@ -4,10 +4,17 @@ from rclpy.action import ActionClient
 from interfaces.action import ActuatorMove
 from interfaces.msg import ActuatorCommand
 
-class CoordenadorAtuadores(Node):
+from atividades.parameters.parameter_manager import ParameterManager
+
+from math import pi
+
+class ActuatorCoordinator(Node):
     def __init__(self):
         super().__init__('coordenador_atuadores')
         
+        # Classe gerenciadora de parâmetros
+        self.params = ParameterManager(self)
+
         # 1. Criar o Action Client
         # Aqui você deve criar o objeto ActionClient
         # Dois parâmetros devem ser passados para a classe ActionClient:
@@ -34,7 +41,7 @@ class CoordenadorAtuadores(Node):
         # Envia a trajetória apenas uma vez quando executar o nó
         self.timer = self.create_timer(1.0, self._start)
 
-        self.get_logger().info("Nó CoordenadorAtuadores executado com sucesso")
+        self.get_logger().info("Nó ActuatorCoordinator iniciado com sucesso")
 
 
     def _start(self):
@@ -68,13 +75,16 @@ class CoordenadorAtuadores(Node):
                 
         # Constrói a mensagem de goal enviada para o action server
         goal_msg = ActuatorMove.Goal()
-        goal_msg.names = ['motor_x']
-        goal_msg.amplitudes = [500.0]
-        goal_msg.periods = [2.0]
-        goal_msg.offsets = [0.0]
-        goal_msg.phases = [0.0]
-        goal_msg.samples = 100
-        goal_msg.loops = 2
+
+        # Obtém os parâmetros passados
+        goal_msg.names = self.params.names
+        goal_msg.amplitudes = self.params.amplitudes
+        goal_msg.periods = self.params.periods
+        goal_msg.offsets = self.params.offsets
+        goal_msg.phases = self.params.phases
+        goal_msg.samples = self.params.samples
+        goal_msg.delays = self.params.delays
+        goal_msg.loops = self.params.loops
 
         # Aguarda o action server ficar disponível
         self._action_client.wait_for_server()
@@ -115,7 +125,7 @@ class CoordenadorAtuadores(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    node = CoordenadorAtuadores()
+    node = ActuatorCoordinator()
 
     rclpy.spin(node)
 

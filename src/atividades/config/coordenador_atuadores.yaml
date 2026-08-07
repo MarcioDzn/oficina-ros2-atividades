@@ -1,0 +1,10 @@
+coordenador_atuadores:
+  ros__parameters:
+    names: ["joint_1", "joint_2", "joint_3"]
+    amplitudes: [1400.0, 1400.0, 1400.0]
+    periods: [3.0, 3.0, 3.0]
+    offsets: [1400.0, 1400.0, 1400.0]
+    phases: [-1.57070, -1.57070, -1.57070]
+    delays: [0.0, 1.0, 2.0]
+    samples: 100
+    loops: 5

@@ -5,6 +5,7 @@ float64[] amplitudes
 float64[] periods
 float64[] offsets
 float64[] phases
+float64[] delays
 
 int32 samples
 int32 loops

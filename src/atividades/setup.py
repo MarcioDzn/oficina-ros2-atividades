@@ -24,7 +24,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'coordenador = atividades.atividade_action:main'
+            'coordenador = atividades.actuator_coordinator:main',
+            'imu_subscriber = atividades.imu_subscriber:main',
+            'teleop = atividades.teleop:main'
         ],
     },
 )

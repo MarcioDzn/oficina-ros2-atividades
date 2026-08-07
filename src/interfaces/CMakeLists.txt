@@ -15,6 +15,8 @@ find_package(std_msgs REQUIRED)
 set(msg_files
   "msg/ActuatorCommand.msg"
   "msg/ActuatorState.msg"
+  "msg/IMUState.msg"
+  "msg/IMUData.msg"
 )
 
 set(action_files
